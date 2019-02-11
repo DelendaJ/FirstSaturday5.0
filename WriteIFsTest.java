@@ -92,7 +92,7 @@ public class WriteIFsTest
     {
         WriteIFs writeIFs1 = new WriteIFs();
         Object oo = new Object();
-        writeIFs1.oo1 = 65;
+        writeIFs1.oo1 = 61;
         writeIFs1.tt_s = 1;
         writeIFs1.fireplaceControl(oo);
         assertEquals(213, writeIFs1.tt_s);
@@ -102,7 +102,7 @@ public class WriteIFsTest
     {
         WriteIFs writeIFs1 = new WriteIFs();
         Object oo = new Object();
-        writeIFs1.oo2 = 80;
+        writeIFs1.oo2 = 30;
         writeIFs1.tt_s = 1;
         writeIFs1.fireplaceControl(oo);
         assertEquals(213, writeIFs1.tt_s);
